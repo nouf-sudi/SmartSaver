@@ -23,20 +23,19 @@ include 'db.php';
         </nav>
     </header>
 
-    <section class="about">
-    <div class="about-content">
-        <h1>Welcome to <span>SmartSaver</span> </h1>
+    <section class="hero">
+    <div class="hero-content">
+        <h1>Welcome to <span>SmartSaver</span></h1>
         <p>Your first step towards smart salary management and achieving your financial goals with confidence.</p>
         <div class="cta">
-            <a href="login.php" class="btn">Log In</a>
-
+            <a href="login.php" class="btn btn-primary">Log In</a>
+            <span>Don't have an account? <a href="signup.php">Sign Up</a></span>
         </div>
-        <p>Don't have an account?  <a href="signup.php" class="btn">Sign Up</a></p>
-        </div>
-        <div class="about-image">
-            <img src="about-background.jpg" alt="SmartSaver">
-        </div>
-    </section>
+    </div>
+    <div class="hero-image">
+        <img src="about-background.jpg" alt="SmartSaver">
+    </div>
+</section>
 
     <footer>
         <p>&copy; 2025 SmartSaver. All rights reserved.</p>
